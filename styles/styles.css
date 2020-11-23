@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #0A2A85;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #0A2A85;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #004000
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    border-bottom: 1px solid #004000;
+}
+
+.logocontainer {
+    width: 30%;
+    padding: 10px;
+    display: inline-block;
+    min-width: 200px;
+    max-height: 220px;
+}
+
+.logo {
+    width: 100%;
+}
+
+#mobilemenu {
+    display: none;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 10px;
+    margin: 1%;
+    border-radius: 5px;
+    font-family: Verdana;
+    text-align: center;
+    border: 1px solid #0a2a85;
+}
+
+nav ul li a {
+    color: #0a2a85;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: #0a2a85;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+nav ul li:hover a {
+    color: white;
+    transition: 0.3s;
+}
+
+button {
+    background: #003ADB;
+    border: 1px solid #0A2A85;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #0A2A85;
+    transition: 0.3s;
+}
+
+.main {
+    background: #BABABA;
+}
+
+.cards {
+    display: flex;
+    flex: row wrap;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #004000;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 30px;
+    background: white;
+}
+
+.imgcontainer {
+    width: 40%;
+    margin: 10px;
+}
+
+.card img {
+    display: inline-block;
+    width: 100%;
+}
+
+.card .carddesc {
+    text-align: center;
+    width: 60%;
+    display: block;
+    margin: 10px;
+}
+
+.card .carddesc button {
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    background: white;
+    border-top: 1px solid #004000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p a {
+    color: #003ADB;
+    text-decoration: underline;
+}
+
+p a:hover {
+    color: #0A2A85;
+    cursor: pointer;
+}
+
+p a:visited {
+    color: #004000;
+}
+
+.slicknav_menu {
+    display: none;
+}
+
+@media screen and (max-width: 780px) {
+    
+    #widemenu {
+        display: none;
+    }
+    #mobilemenu, .slicknav_menu {
+        display: block;
+        background-color: #ffffff;
+    }
+    .slicknav_btn {
+        background-color: #0A2A85;
+    }
+    .slicknav_menutxt {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .slicknav_menu li a {
+        color: #0A2A85;;
+    }
+    .slicknav_menu li:hover {
+        background-color: #0A2A85;
+        transition: 0.3s;
+    }
+    .slicknav_menu li:hover a {
+        background-color: inherit;
+        transition: 0.3s;
+        color: #ffffff;
+    }
+    nav ul li {
+        padding: 2px;
+    }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - South Tech Marketing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#widemenu").slicknav({
+            prependTo: "#mobilemenu"
+        });
+    });
+  </script>
+</head>
+<body>
+    <header>
+        <a class="logocontainer" href="index.html"><img class="logo" src="images/MasterSTMlogo.gif"></a>
+        <nav id="mobilemenu"></nav>
+        <nav id="widemenu">
+            <ul>
+                <li><a href="manufacturers.html">Manufacturers Represented</a></li>
+                <li><a href="representatives.html">Locate a Representative</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="welcome">
+            <h2>WELCOME</h2>
+            <p>SouthTech Marketing is a manufacturer's representative that specializes in professional field sales.  Our firm offers quality manufacturers with complementary products to customers in the Southeast Region.</p>
+        </div>
+    </div>
+    <footer>
+        <div class="location">
+            <p>North Carolina, South Carolina, Tennessee, Georgia, Alabama, Mississippi, Florida, Puerto Rico</p>
+            <p>sales@southtechrep.com</p>
+        </div>
+    </footer>
+</body>
+</html>

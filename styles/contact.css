@@ -1,0 +1,66 @@
+body {
+    display: grid;
+    grid: 1fr 5fr 1fr / 1fr;
+}
+
+.main {
+    display: flex;
+    flex: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    font-family: Verdana;
+    border: 1px solid #004000;
+    background: white;
+    width: 60%;
+    min-width: fit-content;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+input {
+    font-family: Verdana;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+
+.formelement {
+    margin: 10px;
+}
+
+.formelement span {
+    color: #003ADB;
+}
+
+.form button {
+    width: 200px;
+}
+
+input:valid {
+    border: 2px solid green;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:placeholder-shown {
+    border: 2px solid #BABABA;
+}
+
+input:focus {
+    border: 2px solid #0A2A85;
+}
+
